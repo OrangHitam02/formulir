@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Pendaftaran Lomba Volly antar RT RW</title>
+    <form method="post" action="proses.php"></form>
+</head>
+<body>
+<fieldset>
+    <center>
+    <h1>Formulir Pendaftaran</h1>
+    <h2>Lomba Volly</h2>
+    <h3>RT RW</h3>
+    </center>
+    <table align="center" cellpadding="1" cellspacing="2">
+        <tr>
+            <td>Nama Tim</td>
+            <td>:</td>
+            <td><input type="text" name="nama" placeholder="Masukkan Nama Tim" pattern="[A-Za-z\s]+" required></td>
+        </tr>
+        <tr>
+            <td>Jumlah Anggota</td>
+            <td>:</td>
+            <td><input type="number" name="jumlah" placeholder="Masukkan Jumlah Anggota" required></td>
+        </tr>
+        <tr>
+            <td>Asal</td>
+            <td>:</td>
+            <td> RT <input type="number" name="Rt" required> RW <input type="number" name="Rw" required></td>
+        </tr>
+        <tr>
+            <td>Nama Ketua Tim</td>
+            <td>:</td>
+            <td><input type="text" name="nama" placeholder="Masukkan Nama Ketua Tim" required></td>
+        </tr>
+        <tr>
+            <td>No HP Ketua Tim</td>
+            <td>:</td>
+            <td><input type="number" name="nomor" placeholder="Masukkan No HP Ketua Tim" required></td>
+        </tr>
+        <tr>
+            <td>Upload Foto KTP Ketua Tim</td>
+            <td>:</td>
+            <td><input type="file" name="foto" required></td>
+        </tr>
+            <td>Tanggal Pendaftaran</td>
+            <td>:</td>
+            <td><input type="date" name="tanggal" required></td>
+        <tr>
+        <tr>
+            <td>Tim</td>
+            <td>:</td>
+            <td><input type="radio" name="tim" value="Putra" required>Putra<input type="radio" name="tim" value="Putri" required>Putri</td>
+        </tr>
+            <td>
+                <input type="submit" name="submit"  >
+            </td>
+        </tr>
+        </table>
+</fieldset>
+</body>
+</html>
